@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+::before,
+::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -24,9 +24,31 @@ img {
   max-width: 100%;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1em;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 .page {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  background-color: antiquewhite;
+  min-height: 99vh;
+}
+
+.part {
+  outline: 1px solid salmon;
 }
 /*# sourceMappingURL=style.css.map */
